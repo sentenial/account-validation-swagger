@@ -2,15 +2,15 @@ swagger: '2.0'
 info:
   description: Instant Payments External Calls from IPM Module - Contract Definition
   version: '1.0'
-  title: Bank Instant Payments REST/Webhooks API
+  title: SEPA Instant REST API Account Validation
   termsOfService: Terms of service
   contact:
-    name: Contact Name
-    url: 'http://examplebank.com'
-    email: mail@examplebank.com
+    name: Support
+    url: 'http://www.sentenial.com'
+    email: sepa.support@sentenial.com
   license:
     name: License of API
-    url: 'https://www.examplebank.com/'
+    url: 'https://www.sentenial.com/'
 host: 'examplebank.com'
 basePath: /
 tags:
