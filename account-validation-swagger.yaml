@@ -23,8 +23,8 @@ paths:
         - instantpayments
       summary: Sepa Instant Payments Validation Service
       description: |-
-        Endpoint that will be used to validate SEPA instant payments Creditor Account is valid and Creditor Bank can credit the account with payment amount. 
-        Creditor Bank can define its own security header and value. Instant Payments Module will add the header and value to every request sent towards the Creditor Bank.
+        Origix Instant Payments will use this Endpoint, configured by you (as Creditor Bank), to confirm that the beneficiary account, held by your financial institution, and referenced in incoming Instant Payments, is valid.  
+        You must define your own security header and value for this Endpoint; the Instant Payment module will then pass this header and value in all requests to your Validate Account Endpoint.
       operationId: PostValidatePaymentsUsingPOST
       consumes:
         - application/json
